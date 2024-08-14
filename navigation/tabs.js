@@ -8,7 +8,6 @@ import Mind2Header from "../src/components/Mind2Header";
 import Track from "../src/screens/Track";
 import Calm from "../src/screens/Calm";
 import { useContext, useState } from "react";
-//import themeContext from "../../../styles/themeContext";
 import themeContext from "../styles/themeContext";
 import { useGlobalContext } from "../src/hooks/useGlobalContext";
 
@@ -16,9 +15,6 @@ const Tab = createBottomTabNavigator();
 
 const Tabs = () => {
   const { theme } = useGlobalContext();
-
-  // const [theme, setTheme] = useState("light"); // Initial theme state (e.g., "light" or "dark")
-  //const theme = useContext(themeContext);
   return (
     // <themeContext.Provider value={theme}>
     <Tab.Navigator
@@ -26,9 +22,6 @@ const Tabs = () => {
       screenOptions={{
         tabBarShowLabel: false,
         tabBarStyle: {
-          //position: "absolute",
-          //backgroundColor:theme?.background,
-          //backgroundColor: theme?.background,
           height: 80,
           backgroundColor: theme.background,
         },
@@ -129,10 +122,6 @@ const Tabs = () => {
         name="Track"
         component={Track}
         options={{
-          // headerTitle: () => (
-          //   <Mind2Header screenName={"Track"} showLogo={false} />
-          // ),
-          // headerStyle: { height: 90, backgroundColor: "#ffffff" },
           headerTitle: () => <></>,
           headerStyle: { height: 30, backgroundColor: "#ffffff" },
           tabBarIcon: ({ focused }) => (
