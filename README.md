@@ -1,6 +1,6 @@
 ## Hello welcome to mind2.0
 
-##"Discover a Better You with mind2.0".
+"Discover a Better You with mind2.0".
 Introducing our mobile app for improving mental health—a thorough resource for anyone wishing to do so. Our app offers daily mood tracking, self-evaluation, and individualised treatment recommendations for mental illnesses. Utilise our app to take charge of your mental health right now.
 
 List of features-
