@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "coordinate": {
+      "latitude": 42.9938722,
+      "longitude": -81.1722225
+    },
+    "title": "Mental Health Care Medical Center",
+    "mobileNumber": "123-456-7890"
+  },
+  {
+    "id": 2,
+    "coordinate": {
+      "latitude": 42.9857864,
+      "longitude": -81.242092
+    },
+    "title": "London Health Sciences Centre - University Hospital",
+    "mobileNumber": "111-222-3333"
+  },
+  {
+    "id": 3,
+    "coordinate": {
+      "latitude": 42.963434,
+      "longitude": -81.256064
+    },
+    "title": "Memorial Hospital",
+    "mobileNumber": "444-555-6666"
+  },
+  {
+    "id": 4,
+    "coordinate": {
+      "latitude": 42.946798,
+      "longitude": -81.365546
+    },
+    "title": "St. Joseph's Health Care London",
+    "mobileNumber": "777-888-9999"
+  },
+  {
+    "id": 5,
+    "coordinate": {
+      "latitude": 42.979310,
+      "longitude": -81.219185
+    },
+    "title": "London Medical Clinic",
+    "mobileNumber": "555-666-7777"
+  },
+  {
+    "id": 6,
+    "coordinate": {
+      "latitude": 42.982172,
+      "longitude": -81.229524
+    },
+    "title": "Downtown Medical Center",
+    "mobileNumber": "999-888-7777"
+  },
+  {
+    "id": 3,
+    "coordinate": {
+      "latitude": 42.9604823,
+      "longitude": -81.2252139
+    },
+    "title": "Victoria Children's Hospital",
+    "mobileNumber": "444-555-6666"
+  }
+]

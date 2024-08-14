@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Mind2.0",
+    "slug": "Mind2.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier":"com.expo.Mind2.0",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBIzcdSK_WvyncEetqauVSLIhBjhMOMHTE"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBERtCzGMk0NwOswtH6-4ReY9r2OSc3-qA"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
